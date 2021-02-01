@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28658032c6a60e20f213d383087b3a62",
+    "content-hash": "c8513e3905022204fe02c867f329a975",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -356,6 +356,9 @@
                 "psr",
                 "psr-6"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/master"
+            },
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
@@ -405,6 +408,10 @@
                 "container-interop",
                 "psr"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/master"
+            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -582,16 +589,16 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v1.1.9",
+            "version": "v1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "8c4de0cf797f2eba4334a1d7a9b788c1b30a7579"
+                "reference": "011c20407c4b99d454f44021d023fb39ce23b73d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/8c4de0cf797f2eba4334a1d7a9b788c1b30a7579",
-                "reference": "8c4de0cf797f2eba4334a1d7a9b788c1b30a7579",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/011c20407c4b99d454f44021d023fb39ce23b73d",
+                "reference": "011c20407c4b99d454f44021d023fb39ce23b73d",
                 "shasum": ""
             },
             "require": {
@@ -655,7 +662,24 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2020-07-29T14:46:19+00:00"
+            "support": {
+                "source": "https://github.com/symfony/contracts/tree/v1.1.10"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-09-02T16:08:58+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2698,16 +2722,16 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v4.4.11",
+            "version": "v4.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "f51fb90df1154a7f75987198a9689e28f91e6a50"
+                "reference": "c5572f6494fc20668a73b77684d8dc77e534d8cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/f51fb90df1154a7f75987198a9689e28f91e6a50",
-                "reference": "f51fb90df1154a7f75987198a9689e28f91e6a50",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/c5572f6494fc20668a73b77684d8dc77e534d8cf",
+                "reference": "c5572f6494fc20668a73b77684d8dc77e534d8cf",
                 "shasum": ""
             },
             "require": {
@@ -2715,11 +2739,6 @@
                 "symfony/service-contracts": "^1.0|^2"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.4-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Stopwatch\\": ""
@@ -2742,9 +2761,26 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Stopwatch Component",
+            "description": "Provides a way to profile code",
             "homepage": "https://symfony.com",
-            "time": "2020-05-20T08:37:50+00:00"
+            "support": {
+                "source": "https://github.com/symfony/stopwatch/tree/v4.4.19"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-27T09:09:26+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -2916,5 +2952,6 @@
         "ext-filter": "*",
         "ext-session": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
